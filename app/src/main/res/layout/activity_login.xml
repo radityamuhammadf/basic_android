@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_50"
+    android:orientation="vertical"
+    android:weightSum="4"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_margin="0dp"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="2"
+            android:background="@color/orange"
+            android:text="@string/login_view_header"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="@string/home_button"
+            android:textColor="@color/white"
+            android:background="@color/red" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/blue"
+        />
+
+    <EditText
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/green"
+        android:text="@string/username_field"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:inputType="text"
+        />
+    <EditText
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/green"
+        android:text="@string/password_field"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:inputType="text"
+        />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/login_button"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/dark_teal"
+        android:text="@string/enter_button"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/goto_register_button"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/orange"
+        android:text="@string/registration_button"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+
+
+        />
+
+
+
+</LinearLayout>

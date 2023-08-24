@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">SIAKAD STECHOQ</string>
+    <string name="login_view_header">Laman Login</string>
+    <string name="home_button">Home</string>
+    <string name="username_field">Username</string>
+    <string name="password_field">Password</string>
+    <string name="confirm_password_field">Konfirmasi Password</string>
+    <string name="enter_button">Masuk \n ((Tugas API di Sini))</string>
+
+    <string name="registration_view_header">Laman Registrasi</string>
+    <string name="nim_field">NIM</string>
+    <string name="field_nama">Nama</string>
+    <string name="field_email">Email</string>
+    <string name="registration_button">Daftar</string>
+
+    <string name="login_succesful">Login Berhasil</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_registration">registration</string>
+    <string name="title_activity_register">register_activity</string>
+
+    <string name="registration_confirmation">Berhasil</string>
+    <string name="contents_registration_confirmation">Registrasi Telah Berhasil, Silakan Login Ulang</string>
+
+</resources>
