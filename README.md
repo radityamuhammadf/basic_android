@@ -1,5 +1,4 @@
 # Basic Android Project 
-Made By: Muhammad Fida Raditya.
 
 This is the first time I'm using Android Studio, the first project are trying all the basic Android Development elements from the project's structure.
 
